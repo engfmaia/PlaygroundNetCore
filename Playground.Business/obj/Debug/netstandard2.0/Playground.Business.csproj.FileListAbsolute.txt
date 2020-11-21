@@ -1,0 +1,9 @@
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\bin\Debug\netstandard2.0\Playground.Business.deps.json
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\bin\Debug\netstandard2.0\Playground.Business.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\bin\Debug\netstandard2.0\Playground.Business.pdb
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.csprojAssemblyReference.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.AssemblyInfoInputs.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.AssemblyInfo.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.csproj.CoreCompileInputs.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Business\obj\Debug\netstandard2.0\Playground.Business.pdb

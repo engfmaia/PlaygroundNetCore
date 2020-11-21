@@ -1,0 +1,12 @@
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\bin\Debug\net5.0\Playground.Web.Shared.deps.json
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\bin\Debug\net5.0\Playground.Web.Shared.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\bin\Debug\net5.0\ref\Playground.Web.Shared.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\bin\Debug\net5.0\Playground.Web.Shared.pdb
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.csprojAssemblyReference.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.AssemblyInfoInputs.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.AssemblyInfo.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.csproj.CoreCompileInputs.cache
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\ref\Playground.Web.Shared.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Shared\obj\Debug\net5.0\Playground.Web.Shared.pdb
