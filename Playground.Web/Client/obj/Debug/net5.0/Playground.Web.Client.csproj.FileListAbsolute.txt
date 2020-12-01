@@ -414,12 +414,11 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.RazorComponent.input.cache
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Order.razor.g.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Restaurants.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\RedirectToLogin.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -430,12 +429,11 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.RazorCoreGenerate.cache
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\Authentication.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\Order.razor.g.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\Restaurants.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Shared\LoginDisplay.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Shared\RedirectToLogin.razor.g.cs
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
@@ -649,3 +647,5 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\ref\Playground.Web.Client.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.pdb
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\RazorDeclaration\Pages\CuisineTypes.razor.g.cs
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Razor\Pages\CuisineTypes.razor.g.cs

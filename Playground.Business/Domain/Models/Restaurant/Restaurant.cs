@@ -1,8 +1,11 @@
-﻿namespace Playground.Business.Domain.Models.Restaurant
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Playground.Business.Domain.Models.Restaurant
 {
     public class Restaurant
     {
-        public int ID { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
         public string Name { get; set; }
         public CuisineType Cuisine { get; set; }
     }

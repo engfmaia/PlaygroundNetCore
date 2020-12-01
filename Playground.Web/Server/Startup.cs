@@ -7,6 +7,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Playground.Business.Domain.Models.Restaurant;
+using Playground.Data.DbContext;
+using Playground.Data.Repositories.Cuisines;
+using Playground.Data.Repositories.Restaurants;
+using Playground.Data.RepositoryBase;
 using Playground.Web.Server.Data;
 using Playground.Web.Server.Models;
 using Playground.Web.Server.Services;
@@ -29,17 +34,17 @@ namespace Playground.Web.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<IdentityDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("IdentityContext")));
 
             services.AddDefaultIdentity<ApplicationUser>(options =>
                 options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<IdentityDbContext>();
 
             services.AddIdentityServer()
-                .AddApiAuthorization<ApplicationUser, ApplicationDbContext>(options =>
+                .AddApiAuthorization<ApplicationUser, IdentityDbContext>(options =>
                 {
                     options.IdentityResources["openid"].UserClaims.Add("name");
                     options.ApiResources.Single().UserClaims.Add("name");
@@ -60,6 +65,11 @@ namespace Playground.Web.Server
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddDbContext<PlaygroundDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("PlaygroundContext")));
+
+            RegisterRepositories(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -95,5 +105,15 @@ namespace Playground.Web.Server
                 endpoints.MapFallbackToFile("index.html");
             });
         }
+
+        private void RegisterRepositories(IServiceCollection services)
+        {
+            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+            services.AddScoped(typeof(IRepositoryBase<Restaurant>), typeof(RestaurantRepository));
+
+            services.AddScoped<ICuisineRepository, CuisineRepository>();
+            services.AddScoped(typeof(IRepositoryBase<CuisineType>), typeof(CuisineRepository));
+        }
     }
+
 }

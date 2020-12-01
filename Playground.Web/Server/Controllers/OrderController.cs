@@ -15,17 +15,17 @@ namespace Playground.Web.Server.Controllers
     [Authorize(Roles = Roles.Admin)]
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class OrderController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<OrderController> _logger;
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger,
+        public OrderController(ILogger<OrderController> logger,
             UserManager<ApplicationUser> userManager)
         {
             _logger = logger;

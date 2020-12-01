@@ -62,6 +62,92 @@
         }
       }
     },
+    "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\Playground.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\Playground.Data.csproj",
+        "projectName": "Playground.Data",
+        "projectPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\Playground.Data.csproj",
+        "packagesPath": "C:\\Users\\fmaia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fmaia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://trilliumsystemsltd.pkgs.visualstudio.com/_packaging/repo/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Business\\Playground.Business.csproj": {
+                "projectPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Business\\Playground.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Web\\Client\\Playground.Web.Client.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -188,6 +274,9 @@
             "projectReferences": {
               "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Business\\Playground.Business.csproj": {
                 "projectPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Business\\Playground.Business.csproj"
+              },
+              "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\Playground.Data.csproj": {
+                "projectPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Data\\Playground.Data.csproj"
               },
               "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Web\\Client\\Playground.Web.Client.csproj": {
                 "projectPath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Web\\Client\\Playground.Web.Client.csproj"

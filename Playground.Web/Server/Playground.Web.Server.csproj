@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Playground.Business\Playground.Business.csproj" />
+    <ProjectReference Include="..\..\Playground.Data\Playground.Data.csproj" />
     <ProjectReference Include="..\Client\Playground.Web.Client.csproj" />
   </ItemGroup>
 

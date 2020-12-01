@@ -6,10 +6,10 @@ using Playground.Web.Server.Models;
 
 namespace Playground.Web.Server.Data
 {
-    public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
+    public class IdentityDbContext : ApiAuthorizationDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(
-            DbContextOptions options,
+        public IdentityDbContext(
+            DbContextOptions<IdentityDbContext> options,
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }

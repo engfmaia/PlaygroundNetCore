@@ -1,0 +1,87 @@
+﻿@page "/cuisinetypes"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Playground.Business.Domain.Models.Restaurant
+@attribute [Authorize]
+@inject HttpClient Http
+
+<h1>Cuisine Types</h1>
+
+@if (cuisineTypes == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var cuisineType in cuisineTypes)
+            {
+                <tr>
+                    <td>@cuisineType.Name</td>
+                    <td><button @onclick="@(async () => await HandleRemoveSubmit(cuisineType.Id))">Delete</button> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <EditForm Model="@newCuisineType" OnValidSubmit="@HandleValidCreateSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <td>
+            <InputText id="name" @bind-Value="newCuisineType.Name" />
+        </td>
+
+        <td>
+            <button type="submit">Submit</button>
+        </td>
+
+    </EditForm>
+}
+
+@code {
+    private CuisineType newCuisineType;
+    private CuisineType[] cuisineTypes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        newCuisineType = new CuisineType();
+        try
+        {
+            cuisineTypes = await Http.GetFromJsonAsync<CuisineType[]>("cuisinetypesapi");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async Task HandleValidCreateSubmit()
+    {
+        var saveResult = await Http.PostAsJsonAsync("cuisinetypesapi", newCuisineType);
+        if (saveResult.IsSuccessStatusCode)
+        {
+            cuisineTypes = cuisineTypes.Append(newCuisineType).ToArray();
+            newCuisineType = new CuisineType();
+            StateHasChanged();
+        }
+    }
+
+    private async Task HandleRemoveSubmit(int id)
+    {
+        var saveResult = await Http.DeleteAsync($"cuisinetypesapi/{id}");
+        if (saveResult.IsSuccessStatusCode)
+        {
+            cuisineTypes = cuisineTypes.Where(x => x.Id != id).ToArray();
+            StateHasChanged();
+        }
+    }
+}

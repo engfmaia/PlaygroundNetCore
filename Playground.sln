@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Web.Client", "Pl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Business", "Playground.Business\Playground.Business.csproj", "{C4EB632A-7568-431B-A3CA-F2189A1FBBC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Tests", "Playground.Tests\Playground.Tests.csproj", "{2C07BC06-6751-46FB-BA8E-89B60BAB20FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Tests", "Playground.Tests\Playground.Tests.csproj", "{2C07BC06-6751-46FB-BA8E-89B60BAB20FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Data", "Playground.Data\Playground.Data.csproj", "{3BD3EC6F-1686-442B-ABD7-D4DD2E99421E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Data", "Playground.Data\Playground.Data.csproj", "{3BD3EC6F-1686-442B-ABD7-D4DD2E99421E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
