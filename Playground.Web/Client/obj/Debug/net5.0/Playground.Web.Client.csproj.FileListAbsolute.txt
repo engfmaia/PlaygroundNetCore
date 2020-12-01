@@ -204,6 +204,7 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.0.js.gz
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.dll.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
@@ -402,6 +403,8 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.0.js
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.dll
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.pdb
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.csprojAssemblyReference.cache
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.AssemblyInfoInputs.cache
@@ -634,6 +637,7 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\build-gz\E+AnmfZG.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\build-gz\dBP3lM1q.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\build-gz\nyg+b4Js.gz
+C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\build-gz\1tpQSi1H.gz
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\staticwebassets\Playground.Web.Client.StaticWebAssets.Manifest.cache
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\staticwebassets\Playground.Web.Client.StaticWebAssets.xml
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
@@ -645,7 +649,3 @@ C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\n
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\ref\Playground.Web.Client.dll
 C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\Playground.Web.Client.pdb
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.dll.gz
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.dll
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\bin\Debug\net5.0\wwwroot\_framework\Playground.Business.pdb
-C:\Users\fmaia\Documents\DotNetCore\Playground\Playground.Web\Client\obj\Debug\net5.0\build-gz\1tpQSi1H.gz

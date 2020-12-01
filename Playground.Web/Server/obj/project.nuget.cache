@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zmyv56DApLZC4lD89ndPEaIhxWcpBBvV6/HMwO0lxUn5rmeETSWDN3BuutT818iYOeh73WeYnXfqeO8J93PSHg==",
+  "dgSpecHash": "YZL28BnpeTS9ZeVKsUVTLLOHldwJod+lNZLw7evFlPfYRdDAgaxYTRcvqUf/+8V+KfJblbf+RgZxz33eERVjQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Web\\Server\\Playground.Web.Server.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\5.0.0\\microsoft.aspnetcore.components.webassembly.server.5.0.0.nupkg.sha512",
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",
-    "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.10.nupkg.sha512",
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.0\\microsoft.aspnetcore.identity.ui.5.0.0.nupkg.sha512",
     "C:\\Users\\fmaia\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.0\\microsoft.aspnetcore.metadata.5.0.0.nupkg.sha512",

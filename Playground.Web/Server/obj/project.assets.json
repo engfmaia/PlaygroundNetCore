@@ -311,16 +311,16 @@
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.0": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.10"
         },
         "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -1963,7 +1963,7 @@
       },
       "Playground.Business/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/Playground.Business.dll": {}
         },
@@ -2359,18 +2359,18 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.0": {
-      "sha512": "b1eK5vME2bmtWrZjD7mAcxIV2rZaV+k3cu2P2ZrFvPQV6MjkKD+M36EyBzQBDIFJbRvxWx/XC5IJgmdgdggs9g==",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.1.10": {
+      "sha512": "4wgldvbx8OexfWSoPUnxHzQ2PyTkH8dxdhOULRdT6i/dthvqk9oRNoVNsvYozs51ErG+6HZzI4nwziRN4+dzJg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.0",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.0.nupkg.sha512",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
@@ -6750,7 +6750,7 @@
     "net5.0": [
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 5.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.0",
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.0",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.10",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
@@ -6820,7 +6820,7 @@
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[3.1.10, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

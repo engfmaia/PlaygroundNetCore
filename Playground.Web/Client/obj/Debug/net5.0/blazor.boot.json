@@ -198,12 +198,13 @@
       "mscorlib.dll": "sha256-i0zXLOX1XZekwNvRdQK9WDvRWKFggLp7KDCnvMrn+HQ=",
       "netstandard.dll": "sha256-4QNBIB4DMwj82CYd96oFrTh3fcrmyaDjtQ2dBTyWz7Q=",
       "System.Private.CoreLib.dll": "sha256-5Zk+rN+j5FbFEQJdT8YR2O0i6KWpvrERsaPZCv69DmI=",
-      "Playground.Business.dll": "sha256-Yy7CEAm72NWQjGIYmAduS0U0yzgPgL35mpmcGFdr+p0=",
-      "Playground.Web.Client.dll": "sha256-KfVaZIk8LWyGyOBchT3DaxO08rdRxEvUhaM3whFD8Mc="
+      "Playground.Business.dll": "sha256-reLFdeRMWiN8XDqE01pL9RWGHJF8e1X3saWNXRPzQN8=",
+      "Playground.Web.Client.dll": "sha256-7DTzgPSBt1bI+5CwGHbZedJQtxJPmZ6azQxaPGrg0Pk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Playground.Web.Client.pdb": "sha256-l3Yiht1mLqHCbuDthb+TF4ACziluVePTlNWGm0uknnA="
+      "Playground.Business.pdb": "sha256-\/7ZF7eSJeZtKk2ZUZFJFjSIlReiKtuFSv3YFVr1oDXc=",
+      "Playground.Web.Client.pdb": "sha256-QEJygWHoD0PKfAz1vSYtsSdQQXutJIX1Oy9Xhl4nEA4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2ldEe2K8ARFKSIBsv+Hr3iNQzq9qh1H\/dwdu2r+AIyY=",

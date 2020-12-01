@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GFK2dpLlQ1JQ6uypiuTjrY6usOJpCwdys78DwfEMz+iQKNb6ABlkotXTgziCGbSoSPByYv1tb6H5ffUNzeYaIA==",
+  "dgSpecHash": "WlvqkmoOIemxH72R/YifgjwgKMdytEeWij+u+7jB1CVpfb9fm8Q+/PFSZRLCdn+K8Duq1bIjethHgvZ7x9LXbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fmaia\\Documents\\DotNetCore\\Playground\\Playground.Business\\Playground.Business.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

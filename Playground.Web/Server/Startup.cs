@@ -33,8 +33,6 @@ namespace Playground.Web.Server
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDatabaseDeveloperPageExceptionFilter();
-
             services.AddDefaultIdentity<ApplicationUser>(options =>
                 options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<IdentityRole>()
